@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LaunchTask</class>
+ <widget class="QWidget" name="LaunchTask">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1007</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>发布新任务</string>
+  </property>
+  <widget class="QTextEdit" name="tText">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>220</y>
+     <width>371</width>
+     <height>321</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="tIntro">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>361</width>
+     <height>87</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>翻译简介及备注：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>翻译原文：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>10</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>发布新任务</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>100</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>612</x>
+     <y>190</y>
+     <width>90</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>翻译类型：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>612</x>
+     <y>260</y>
+     <width>108</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>任务总报酬：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cBTransType">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>190</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>中译英</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>英译中</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>100</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>负责人报名截止日期:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lSumReward">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>260</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>130</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>负责人报名截止时间:</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="timeEdit">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>130</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bSubmit">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>390</y>
+     <width>156</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bReturn">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>390</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
