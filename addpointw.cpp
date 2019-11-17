@@ -24,7 +24,7 @@ void addPointw::addAmount()
     QMessageBox msg;
     QString s1 = "当前的余额为";
     QString s2 = QString::number(abu->getAmount());
-    QString s =s1+s2;
+    QString s = s1 + s2;
     msg.setText(s);
     msg.setWindowTitle(QStringLiteral("成功充值"));
     msg.exec();
